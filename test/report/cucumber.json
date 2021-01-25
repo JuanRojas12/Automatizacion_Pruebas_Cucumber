@@ -1,0 +1,253 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16762109500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Iniciar Sesion con credenciales correctas",
+        "description": "",
+        "id": "login-pagina;iniciar-sesion-con-credenciales-correctas",
+        "after": [
+          {
+            "result": {
+              "duration": 791230800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90706600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": Abre la pagina web opensourcecms",
+            "match": {
+              "location": "Test.Abre_la_pagina_web_opensourcecms()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12796152000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": El usuario ingresa las credenciales y presiona el boton de iniciar sesion",
+            "match": {
+              "location": "Test.El_usuario_ingresa_las_credenciales_y_presiona_el_boton_de_iniciar_sesion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18485500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": El usuario se logea correctamente",
+            "match": {
+              "location": "Test.El_usuario_se_logea_correctamente()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6439400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": Se finaliza el test",
+            "match": {
+              "location": "Test.Se_finaliza_el_test()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6327279400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Se crea un usuario con perfil de abonado",
+        "description": "",
+        "id": "login-pagina;se-crea-un-usuario-con-perfil-de-abonado",
+        "after": [
+          {
+            "result": {
+              "duration": 744577500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10595071900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": El usuario ingresa con usuario y contraseña e inicia sesion",
+            "match": {
+              "location": "Test.elUsuarioIngresaConUsuarioYContraseñaEIniciaSesion()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4345733800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": Sostenemos el cursor sobre Usuarios y damos clic en creacion de usuario",
+            "match": {
+              "location": "Test.sostenemosElCursorSobreUsuariosYDamosClicEnCreacionDeUsuario()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1514796200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": ": Llenamos los campos en blanco",
+            "match": {
+              "location": "Test.llenamosLosCamposEnBlanco()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": ": Se finaliza la creacion de usuario",
+            "match": {
+              "location": "Test.seFinalizaLaCreacionDeUsuario()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6220415400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Eliminar usuario Creado",
+        "description": "",
+        "id": "login-pagina;eliminar-usuario-creado",
+        "after": [
+          {
+            "result": {
+              "duration": 1234525800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4956602900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": ": Ingresar sesion con usuario creado",
+            "match": {
+              "location": "Test.ingresar_sesion_con_usuario_creado()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4276168300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": ": Sostenemos el cursor sobre Usuarios y damos clic en todos los usuarios",
+            "match": {
+              "location": "Test.sostenemos_el_cursor_sobre_Usuarios_y_damos_clic_en_todos_los_usuarios()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ": identificacmos el usuario para eliminar",
+            "match": {
+              "location": "Test.identificacmos_el_usuario_para_eliminar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3733500,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat selenium_glu.Test.se_finaliza_la_eliminacion_de_usuario(Test.java:111)\r\n\tat ✽.And : Se finaliza la eliminacion de usuario(test.feature:23)\r\n",
+              "status": "pending"
+            },
+            "line": 23,
+            "name": ": Se finaliza la eliminacion de usuario",
+            "match": {
+              "location": "Test.se_finaliza_la_eliminacion_de_usuario()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Pagina",
+    "description": "",
+    "id": "login-pagina",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
